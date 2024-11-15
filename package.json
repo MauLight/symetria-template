@@ -1,10 +1,19 @@
 {
-  "name": "react-router-landing-page",
+  "name": "symetria-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "This boilerplate offers a starting point for Symetria projects.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauLight/symetria-template.git"
+  },
+  "author": {
+    "name": "Symetria"
+  },
+  "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
