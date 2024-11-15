@@ -1,7 +1,7 @@
 {
   "name": "symetria-template",
-  "private": true,
   "version": "1.0.0",
+  "main": "main.tsx",
   "type": "module",
   "description": "This boilerplate offers a starting point for Symetria projects.",
   "repository": {
@@ -18,10 +18,14 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "bin": {
+    "symetria": "./symetria.js"
+  },
   "dependencies": {
     "@axe-core/react": "^4.10.1",
     "framer-motion": "^11.11.17",
     "hamburger-react": "^2.5.1",
+    "ora": "^8.1.1",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

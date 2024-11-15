@@ -7,7 +7,7 @@ How to use:
 1. Run `npm i`
 2. Run `npm run dev` (default port= 3000)
 
-**Important**
+**Important:**
 Formatting should be handled by eslint, please add this settings to your VS Code settings JSON file:
 
 > "eslint.format.enable": true,
